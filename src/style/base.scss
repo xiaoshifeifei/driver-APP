@@ -1,0 +1,54 @@
+@import "./variables.scss";
+@each $key, $value in $font-sizes {
+    .#{$key} {
+      font-size: $value;
+    }
+  
+    .lh-#{$key} {
+      line-height: $value;
+    }
+  }
+	
+	@each $key, $value in $mt-top {
+	    .#{$key} {
+	      margin-top: $value;
+	    }
+			.mt-l-#{$key} {
+				margin-left:$value;
+			}
+			.mt-r-#{$key} {
+				margin-right:$value;
+			}
+			.mt-b-#{$key} {
+				margin-bottom:$value;
+			}
+	    .pad-#{$key} {
+	      padding-top: $value;
+	    }
+			.pad-bot-#{$key} {
+			  padding-bottom: $value;
+			}
+			.pad-l-#{$key} {
+			  padding-left: $value;
+			}
+			.pad-r-#{$key} {
+			  padding-right: $value;
+			}
+	  }
+  
+  @each $key, $value in $colors {
+    .#{$key} {
+      color: $value;
+    }
+  
+    .bg-#{$key} {
+      background-color: $value;
+    }
+  
+    .bd-#{$key} {
+      border: 1px solid $value;
+    }
+  }
+
+
+  

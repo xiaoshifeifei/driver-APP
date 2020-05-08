@@ -1,0 +1,175 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#0084FF",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/task/tasklist",
+			"style": {
+				"navigationBarTitleText": "我的任务",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/notice/index",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		}, {
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, {
+			"path": "pages/register/index",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/task/taskdetail",
+			"style": {
+				"navigationBarTitleText": "任务详情",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/my/user/changeuserinfo",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/my/driver/index",
+			"style": {
+				"navigationBarTitleText": "司机认证",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/my/car/index",
+			"style": {
+				"navigationBarTitleText": "车辆信息",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/my/group/index",
+			"style": {
+				"navigationBarTitleText": "所在团队",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/my/group/grouplist",
+			"style": {
+				"navigationBarTitleText": "团队申请",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/my/group/companylist",
+			"style": {
+				"navigationBarTitleText": "企业信息",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/register/protocol",
+			"style": {
+				"navigationBarTitleText": "用户协议",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/findpwd/index",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/my/user/changepwd",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/my/about/aboutus",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/my/about/version",
+			"style": {
+				"navigationBarTitleText": "版本说明",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/my/about/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/my/about/userprotocol",
+			"style": {
+				"navigationBarTitleText": "用户协议",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/notice/noticeDetails/n_details",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "系统通知",
+				"navigationBarBackgroundColor": "#fff",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "全部已读",
+							"fontSize": "14px",
+							"width": "80px"
+						}]
+					}
+				}
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/image/nav/index.png",
+			"selectedIconPath": "static/image/nav/index1.png"
+		}, {
+			"pagePath": "pages/task/tasklist",
+			"text": "任务",
+			"iconPath": "static/image/nav/order.png",
+			"selectedIconPath": "static/image/nav/order1.png"
+		}, {
+			"pagePath": "pages/notice/index",
+			"text": "消息",
+			"iconPath": "static/image/nav/msg.png",
+			"selectedIconPath": "static/image/nav/msg1.png"
+		}, {
+			"pagePath": "pages/my/index",
+			"text": "我的",
+			"iconPath": "static/image/nav/my.png",
+			"selectedIconPath": "static/image/nav/my1.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8", //头部导航的颜色
+		"backgroundColor": "#F8F8F8"
+	}
+}

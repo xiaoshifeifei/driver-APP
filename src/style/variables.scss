@@ -1,0 +1,49 @@
+// 字体
+$font-sizes: ( 
+  fs24: 24upx,
+  fs26: 26upx,
+  fs28: 28upx,
+  fs30: 30upx,
+  fs32: 32upx,
+  fs34: 34upx,
+  fs36: 36upx,
+  fs38: 38upx,
+  fs40: 40upx,
+);
+
+// 颜色
+$colors: (
+  /* 登入注册颜色变量 */
+  c1:#4D6AAE,
+  /* 买入卖出按钮 */
+  c2:#EB4F52,
+  c3:#3DA34A,
+  /* 主页面背景颜色 */
+  c4:#F6F7F9,
+  /* 子页面背景颜色 */
+  c5:#F2F2F2,
+  /* 验证码颜色 */
+  c6:#677EB8,
+  // 小子颜色
+  c7:#CED0D5,
+  // 白色
+  c8: #fff,
+  // 个人中心头像颜色
+  c9: #3879D9,
+	c10: #838487
+);
+
+$mt-top: (
+  mt2:2upx,
+  mt10: 10upx,
+  mt20: 20upx,
+  mt30: 30upx,
+  mt40: 40upx,
+  mt50: 50upx,
+  mt60: 60upx,
+  mt70: 70upx,
+  mt80: 80upx,
+  mt90: 90upx,
+  mt100: 100upx,
+);
+$bgcolor:#fff;
