@@ -39,7 +39,7 @@
     "@dcloudio/webpack-uni-mp-loader": "*",
     "@dcloudio/webpack-uni-pages-loader": "*",
     "@vue/cli-plugin-babel": "3.3.0",
-    "@vue/cli-service": "^3.0.4",
+    "@vue/cli-service": "^5.0.8",
     "babel-plugin-import": "^1.11.0",
     "vue-template-compiler": "^2.5.21"
   },
